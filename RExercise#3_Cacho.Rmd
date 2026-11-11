@@ -1,0 +1,49 @@
+---
+title: "RExercise#3_Cacho"
+Author: John Lloyd Cacho
+Date: October 14, 2026
+output: html_document
+---
+
+```{r}
+scores <- c(88, 92, 79, 95, 84)
+subjects <- c("Math","Science","English","History","PE")
+
+print(scores)
+print(subjects)
+
+```
+```{r}
+odds <- seq(from=1,to=19,by=2)
+evenly_spaced <- seq(from=0,to=1,length.out=5)
+
+print(odds)
+print(evenly_spaced)
+```
+```{r}
+repeat_A <- rep("A",times=4)
+repeat_each <- rep(c("A","B"),each=2)
+repeat_sequence <- rep(c("A","B"),times=2)
+
+print(repeat_A)
+print(repeat_each)
+print(repeat_sequence)
+```
+Question#1
+```{r}
+age <- c(15, 28, 32, 36, 27, 18, 52, 39, 42, 29, 35, 31, 27, 22, 37, 34, 19, 20, 57, 49, 50, 37, 46, 25, 17, 12, 42, 53, 41, 51, 35, 24, 33, 8)
+
+length(age)
+
+1/age
+
+new_age <- c(age,0,age)
+length(new_age)
+
+min(age)
+max(age)
+
+```
+Question#2
+The each argument repeats every element a specified number of times before moving to the next element. The times argument repeats the entire vector.
+

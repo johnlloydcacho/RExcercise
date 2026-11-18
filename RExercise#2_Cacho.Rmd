@@ -1,0 +1,46 @@
+---
+title: "RExercise#2_Cacho"
+author: "John Lloyd Cacho"
+date: "2026-09-30"
+output: html_document
+---
+
+#Part A - Arithmetic Operations
+```{r}
+a <- 17
+b <- 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+print(a %% b)
+print(a %/% b)
+
+print(2^10)
+```
+Question 1:
+```{r}
+a<-17
+b<-5
+
+print(a/b)
+print(a%%b)
+print(a%/%b)
+```
+all of these relate to each other mathematically, it is all just division but acquiring differents answer rather any different function, for division, it ask for the exact answer which is 3.4, for modulo, it ask for remainder which is 2, because 17/5 is 3, it is equal to 15 which minus it to 17 is equal to 2, then whole number quotient for the %/% which is 3.4 is 3 because 4 is decimal and not whole number.
+
+Question 2:
+```{r}
+a <- 10
+b <- 3
+print(a%%b)
+print(a%/%b)
+```
+Yes, Im correct (a%%b) is 1, (a%/%) is 3
+
+
+
+
+
